@@ -17,7 +17,7 @@ class TestSemVer:
 
     @pytest.mark.parametrize(
         ('entrance', 'expected'),
-        (
+        (  # noqa: PT007
             (__version__, True),
             ('1', False),
             ('1.0', False),
